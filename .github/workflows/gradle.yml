@@ -3,7 +3,10 @@ name: GradleBuild
 on:
   release:
     types: [published, created, edited]
-
+  push:
+    branches:
+    - main
+    - release/*
 jobs:
   build:
 
