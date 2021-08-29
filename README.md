@@ -1,3 +1,7 @@
+![GitHub](https://img.shields.io/github/license/newspicel/RxPaper) 
+![GitHub issues](https://img.shields.io/github/issues/newspicel/rxpaper)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/newspicel/rxpaper)
+![GitHub release (latest by date and asset)](https://img.shields.io/github/downloads/newspicel/rxpaper/latest/rxpaper-1.0-all.jar)
 # RxPaper
 A small Reactive API with RxJava for Minecraft Paper Plugins.
 
@@ -30,6 +34,8 @@ When you want to listen a Command
 ## Installation
 
 ### Gradle
+
+#### Kotlin
 ````kotlin
 repositories {
     mavenCentral()
@@ -42,6 +48,7 @@ dependencies {
 }
 ````
 
+#### Groovy
 ````groovy
 repositories {
     maven {
@@ -50,7 +57,7 @@ repositories {
 }
 
 dependencies {
-    implementation("dev.newspicel.rxpaper:rxpaper:1.0")
+    implementation 'dev.newspicel.rxpaper:rxpaper:1.0'
 }
 ````
 
