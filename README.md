@@ -30,11 +30,40 @@ When you want to listen a Command
 ## Installation
 
 ### Gradle
-````groovy
+````kotlin
+repositories {
+    mavenCentral()
+    maven("https://maven.pkg.github.com/newspicel/rxjava")
+}    
 
+
+dependencies {
+    implementation("dev.newspicel.rxpaper:rxpaper:1.0")
+}
+````
+
+````groovy
+repositories {
+    maven {
+        url = 'https://maven.pkg.github.com/newspicel/rxjava'
+    }
+}
+
+dependencies {
+    implementation("dev.newspicel.rxpaper:rxpaper:1.0")
+}
 ````
 
 ### Maven
 ````xml
+<repository>
+     <id>github</id>
+     <url>https://maven.pkg.github.com/newspicel/rxjava</url>
+</repository>
 
+<dependency>
+    <groupId>dev.newspicel.rxpaper</groupId>
+    <artifactId>rxpaper</artifactId>
+    <version>1.0</version>
+</dependency>
 ````
