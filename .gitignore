@@ -1,0 +1,16 @@
+*.class
+*.jar
+
+hs_err_pid*
+out/
+.idea_modules/
+.gradle
+**/build/
+!src/**/build/
+gradle-app.setting
+!gradle-wrapper.jar
+.gradletasknamecache
+.idea
+*.iml
+out
+gen
