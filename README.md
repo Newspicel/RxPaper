@@ -34,6 +34,8 @@ When you want to listen a Command
 ## Installation
 
 ### Gradle
+
+#### Kotlin
 ````kotlin
 repositories {
     mavenCentral()
@@ -46,6 +48,7 @@ dependencies {
 }
 ````
 
+#### Groovy
 ````groovy
 repositories {
     maven {
