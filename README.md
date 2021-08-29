@@ -54,7 +54,7 @@ repositories {
 }
 
 dependencies {
-    implementation("dev.newspicel.rxpaper:rxpaper:1.0")
+    implementation 'dev.newspicel.rxpaper:rxpaper:1.0'
 }
 ````
 
