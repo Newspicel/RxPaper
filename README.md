@@ -39,7 +39,9 @@ When you want to listen a Command
 ````kotlin
 repositories {
     mavenCentral()
-    maven("https://maven.pkg.github.com/newspicel/rxjava")
+    maven {
+        url = uri("https://maven.pkg.github.com/newspicel/rxjava")
+    }
 }    
 
 
