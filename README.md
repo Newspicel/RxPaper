@@ -52,7 +52,7 @@ dependencies {
 ````groovy
 repositories {
     maven {
-        url = 'https://maven.pkg.github.com/newspicel/rxjava'
+        url 'https://maven.pkg.github.com/newspicel/rxjava'
     }
 }
 
