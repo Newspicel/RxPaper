@@ -7,7 +7,7 @@ A small Reactive API with RxJava for Minecraft Paper Plugins.
 ## Usage
 
 #### RxPaper.io()
-When you want to bing something back in the Minecraft Thread
+When you want to return something back in the Minecraft Thread
 ````java
 public void test(Plugin plugin) {
     Flowable.just("").subscribeOn(RxPaper.io(plugin)).subscribe();
