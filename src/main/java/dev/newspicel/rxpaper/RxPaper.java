@@ -20,8 +20,8 @@ import org.jetbrains.annotations.NotNull;
 import java.util.Objects;
 
 /**
- * Class RxPaper has only Static Methods
- * Class the make the work with Minecraft and RxJava easier
+ * Class RxPaper has only Static Methods.
+ * Class that makes working with Minecraft and RxJava easier.
  *
  * @author Newspicel | Julian
  */
